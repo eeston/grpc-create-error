@@ -1,26 +1,33 @@
 {
-  "name": "grpc-create-error",
+  "name": "@eeston/grpc-create-error",
   "version": "1.2.1",
   "description": "Utility function that creates an Error suitable for gRPC responses",
   "main": "index.js",
   "scripts": {
     "test": "ava -v",
     "docs": "jsdoc2md index.js --heading-depth 3 --template readme.hbs | md-wrap-code > README.md",
-    "lint.fix": "standard --fix"
+    "lint.fix": "standard --fix",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bojand/grpc-create-error.git"
+    "url": "git+https://github.com/eeston/grpc-create-error.git"
   },
   "author": {
     "name": "Bojan D.",
     "email": "dbojan@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "John Easton",
+      "email": "john@easton.dev"
+    }
+  ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bojand/grpc-create-error/issues"
+    "url": "https://github.com/eeston/grpc-create-error/issues"
   },
-  "homepage": "https://github.com/bojand/grpc-create-error",
+  "homepage": "https://github.com/eeston/grpc-create-error",
   "keywords": [
     "protocol buffer",
     "protobuf",
@@ -34,6 +41,7 @@
     "@grpc/grpc-js": "^1.2.12",
     "async": "^3.2.0",
     "ava": "^3.15.0",
+    "git-cz": "^4.7.6",
     "jsdoc-to-markdown": "^7.0.0",
     "lodash": "^4.17.15",
     "md-wrap-code": "^0.1.1",
