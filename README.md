@@ -2,6 +2,9 @@
 
 Utility function that creates an Error suitable for gRPC responses
 
+This forked repository aims to provide a `@grpc/grpc-js` compatable version of [grpc-create-error](https://github.com/bojand/grpc-create-error). The original repository has a dependency that relies on `grpc` which is [no longer supported](https://grpc.io/blog/grpc-js-1.0/).
+
+
 [![npm version](https://img.shields.io/npm/v/grpc-create-error.svg?style=flat-square)](https://www.npmjs.com/package/grpc-create-error)
 [![build status](https://img.shields.io/travis/bojand/grpc-create-error/master.svg?style=flat-square)](https://travis-ci.org/bojand/grpc-create-error)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
